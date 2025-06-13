@@ -49,36 +49,18 @@ A comprehensive collection of practical implementations and simulations for **Co
    ```bash
    git clone https://github.com/your-username/computer-architecture-lab.git
    cd computer-architecture-lab
-Open lab files:
+-> Open lab files:
 
-PDF reports for detailed procedures
+-> PDF reports for detailed procedures
 
-EWB files for simulations
+-> EWB files for simulations
 
-Recreate experiments:
+-> Recreate experiments:
 
-Follow lab instructions
+-> Follow lab instructions
 
-Verify with provided truth tables
+-> Verify with provided truth tables
 
-📸 Sample Implementation
-https://via.placeholder.com/400x200.png?text=Half+Adder+Circuit+Diagram
-
-verilog
-// Sample Gate-level Implementation
-module half_adder(
-  input A, B,
-  output Sum, Carry
-);
-  assign Sum = A ^ B;
-  assign Carry = A & B;
-endmodule
-📊 Verification Tables
-A	B	AND	OR	XOR
-0	0	0	0	0
-0	1	0	1	1
-1	0	0	1	1
-1	1	1	1	0
 👩‍💻 Author
 Syeda Khadija Hassan
 📧 hassankhadija06@gmail.com
