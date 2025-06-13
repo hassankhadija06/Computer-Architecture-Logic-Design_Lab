@@ -1,98 +1,86 @@
-🔬 Computer Architecture & Logic Design Lab Reports
-👩‍💻 By Syeda Khadija Hassan
-🎓 Roll No: 2024-SE-09 | University of Azad Jammu & Kashmir
+markdown
+# 🖥️ Computer Architecture & Logic Design Lab Repository
 
-🌟 Repository Overview
-Welcome to my Digital Logic Lab Experiments repository! Here you'll find:
+![Digital Logic Banner](https://via.placeholder.com/800x200.png?text=Digital+Logic+Experiments)
 
-✅ Hands-on simulations of basic logic gates
+A comprehensive collection of practical implementations and simulations for **Computer Architecture and Logic Design** experiments, featuring both hardware and software approaches.
 
-🔍 Truth table verifications
+## 🌟 Features
 
-⚡ Circuit designs (NAND/NOR, Half Adders)
+- ✅ Hands-on logic circuit construction
+- 🔌 IC-level implementations (7400 series)
+- 💻 EWB/Multisim simulations
+- 📊 Complete truth table verifications
+- 🔄 Side-by-side manual vs IC comparisons
 
-📜 DeMorgan's Law proofs
+---
 
-Perfect for students learning digital electronics!
+## 📂 Repository Structure
 
-📂 Lab Files
-File	Description
-CALD_Lab01_2024_SE_09.pdf	Basic logic gates verification
-CLD_LabTasks.pdf	Midterm lab tasks (NAND, NOR, Half Adders)
-🔧 Experiments Performed
-1. 🧩 Basic Logic Gates
-https://img.icons8.com/color/48/000000/and-gate.png https://img.icons8.com/color/48/000000/xor-gate.png
+| Lab | Title | Description |
+|-----|-------|-------------|
+| 01 | [Basic Gate Implementation](#) | AND, OR, NOT, NAND, NOR, XOR gates |
+| 02 | [Universal Gates Implementation](#) | NAND/NOR as universal gates |
+| 03 | [DeMorgan's Laws Verification](#) | Proof through circuit implementation |
+| 04 | [Half Adder Implementation](#) | Simple and complex designs |
 
-Verified AND, OR, NOT, NAND, NOR, XOR gates
+---
 
-Used ICs: 7400, 7402, 7404, 7408, 7432, 7486
+## 🛠️ Tools & Components
 
-Confirmed all truth tables match theory
+### Simulation Software
+![EWB Logo](https://img.icons8.com/color/48/000000/circuit.png) **Electronics Workbench (EWB/Multisim)**
 
-Sample Truth Table (AND Gate):
+### Hardware Components
+| IC | Function |
+|----|----------|
+| 7400 | Quad NAND Gate |
+| 7402 | Quad NOR Gate |
+| 7404 | Hex Inverter |
+| 7408 | Quad AND Gate |
+| 7432 | Quad OR Gate |
+| 7486 | Quad XOR Gate |
 
-A	B	Output
-0	0	0
-0	1	0
-1	0	0
-1	1	1
-2. ⚡ Advanced Circuits
-🔀 NAND/NOR Implementation
-Built simple circuits using ICs
+---
 
-Created complex versions using basic gates
+## 🚀 Getting Started
 
-plaintext
-NAND = NOT(AND(A,B))  
-NOR = NOT(OR(A,B))
-🧮 Half Adder Design
-https://img.icons8.com/color/48/000000/electrical.png
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/computer-architecture-lab.git
+   cd computer-architecture-lab
+Open lab files:
 
-Simple version: XOR + AND gates
+PDF reports for detailed procedures
 
-Complex version: Only NOT/AND/OR gates
+EWB files for simulations
 
-Verified all cases (00→0, 01→1, 10→1, 11→0)
+Recreate experiments:
 
-📊 DeMorgan's Law Proof
-NAND Case
-math
-(A·B)' = A' + B'
-NOR Case
-math
-(A+B)' = A'·B'
-Verification Table:
+Follow lab instructions
 
-A	B	NAND	NOT A + NOT B
-0	0	1	1
-0	1	1	1
-1	0	1	1
-1	1	0	0
-🛠 Tools Used
-Tool	Purpose
-https://img.icons8.com/color/24/000000/circuit.png Electronic Workbench	Circuit Simulation
-https://img.icons8.com/color/24/000000/chip.png Logic Gate ICs	Hardware Implementation
-🚀 How to Use This Repo
-Clone repository
+Verify with provided truth tables
 
-bash
-git clone [repo-link]
-Open PDF reports for detailed procedures
+📸 Sample Implementation
+https://via.placeholder.com/400x200.png?text=Half+Adder+Circuit+Diagram
 
-Recreate circuits in EWB using described methods
-
-📜 Conclusion
-Successfully verified digital logic concepts
-
-Gained practical circuit design skills
-
-Proved DeMorgan's Laws experimentally
-
-Perfect reference for Computer Architecture students!
-
-📧 Contact
+verilog
+// Sample Gate-level Implementation
+module half_adder(
+  input A, B,
+  output Sum, Carry
+);
+  assign Sum = A ^ B;
+  assign Carry = A & B;
+endmodule
+📊 Verification Tables
+A	B	AND	OR	XOR
+0	0	0	0	0
+0	1	0	1	1
+1	0	0	1	1
+1	1	1	1	0
+👩‍💻 Author
 Syeda Khadija Hassan
-📧 [Your Email]
+📧 hassankhadija06@gmail.com
+🎓 Department of Software Engineering
 🏛 University of Azad Jammu & Kashmir
-
-<div align="center"> <img src="https://img.icons8.com/color/96/000000/university.png" width="50"/> <p>Made with ❤️ for Digital Logic Lab</p> </div>
