@@ -1,8 +1,6 @@
 
 # 🖥️ Computer Architecture & Logic Design Lab Repository
 
-(https://via.placeholder.com/800x200.png?text=Digital+Logic+Experiments)
-
 A comprehensive collection of practical implementations and simulations for **Computer Architecture and Logic Design** experiments, featuring both hardware and software approaches.
 
 ## 🌟 Features
